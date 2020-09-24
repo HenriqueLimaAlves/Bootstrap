@@ -19,7 +19,7 @@
   
        /* Set a specific height */
        min-height: 500px;
-       width: auto; 
+       
      
        /* Create the parallax scrolling effect */
        background-attachment: fixed;
@@ -29,10 +29,27 @@
 }
 
 .h600{
-    height:600px;font-size:36px
+    height:700px;
 }
 
 .tm-social{
     width: 50px;
     height: 50px;
 }
+
+.nvColor{
+    background-color: #14213d;
+}
+
+.ftColor{
+    background-color: #000000;
+}
+
+.fontePadrao{
+    font-family:"Helvetica Neue"
+}
+
+.margemT {
+    padding: 20px;
+}
+
