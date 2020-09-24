@@ -1,6 +1,6 @@
 .parallaxHome {
     /* The image used */
-    background-image: url("/assets/img/parallax.jpg");
+    background-image: url("/assets/img/parallax/parallax.jpg");
   
     /* Set a specific height */
     min-height: 500px;
@@ -15,7 +15,7 @@
 
 .parallaxBottom {
        /* The image used */
-       background-image: url("/assets/img/p2.jpg");
+       background-image: url("/assets/img/parallax/p2.jpg");
   
        /* Set a specific height */
        min-height: 500px;
@@ -30,4 +30,9 @@
 
 .h600{
     height:600px;font-size:36px
+}
+
+.tm-social{
+    width: 50px;
+    height: 50px;
 }
