@@ -12,14 +12,15 @@
     <!--css-->
     <link rel="stylesheet" href="css/style.css">
     <!--/css-->
-
+ 
+      
     <title>Generation RPG!</title>
 </head>
 
 <body>
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-dark nvColor">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" id= "home" href="#">
             <img src="/assets/img/001-knight.png" width="30" height="30" alt="">RPG
         </a>
         <div class="container d-flex justify-content-center">
@@ -32,16 +33,16 @@
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(página atual)</span></a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">Classes <span class="sr-only">(página atual)</span></a>
+                    <a class="nav-link" href="#classes">Classes <span class="sr-only">(página atual)</span></a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">Sobre <span class="sr-only">(página atual)</span></a>
+                    <a class="nav-link" href="#sobre">Sobre <span class="sr-only">(página atual)</span></a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">Contato <span class="sr-only">(página atual)</span></a>
+                    <a class="nav-link" href="#contato">Contato <span class="sr-only">(página atual)</span></a>
                 </li>
             </ul>
 
@@ -113,10 +114,13 @@
     <!--/carousel-->
 
     <!--Joubotron-->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid jCor">
         <div class="container">
-            <h1 class="display-4 text-center">Classes</h1>
-            <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="row d-flex justify-content-center">
+                <img class="" src="/assets/img/Icon/class.png" alt="">
+                <h1 class="display-4 text-center" id="classes">Classes</h1>
+            </div>
+            <p class="lead text-center text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
     </div>
     <!--/Joubotron-->
@@ -193,7 +197,7 @@
             <div class="container d-flex justify-content-center">
                 <div class="col-md-12">
                     <div class="bg-transparent mb-5">
-                        <h3 class="text-center margemT">Sobre</h3>
+                        <h3 class="text-center margemT" id="sobre">Sobre</h3>
                         <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
                             voluptatem deserunt,
                             nesciunt nihil ipsam in voluptas dolorum asperiores facilis amet consequatur nobis? Saepe
@@ -260,12 +264,45 @@
     <!--Joubotron-->
     <div class="jumbotron jumbotron-fluid mb-0">
         <div class="container">
-            <h1 class="display-4 text-center">Contato</h1>
+            <div class="row d-flex justify-content-center">
+                <img class="" src="/assets/img/Icon/contato.png" alt="">
+                <h1 class="display-4 text-center" id="contato">Contato</h1>
+            </div>
             <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
     </div>
     <!--/Joubotron-->
 
+    <!--Formulario de Contato-->
+
+    <div class="container d-flex justify-content-center mt-5 mb-5">
+        <div class="col-md-12">
+            <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Endereço de email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Faixa Etária</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Abaixo de 15</option>
+                    <option>15 a 17</option>
+                    <option>18 a 23</option>
+                    <option>24 a 30</option>
+                    <option>Acima de 30</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Comentário</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  
+                </div class="row d-flex justify-content-center">
+                <button type="button" class="btn btn-secondary">Secondary</button>
+              </form>
+        </div>
+    </div>
+
+    <!--/Formulario de Contato-->
 
     <!-- JavaScript-->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->

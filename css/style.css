@@ -38,7 +38,7 @@
 }
 
 .nvColor{
-    background-color: #14213d;
+    background-color: #102542;
 }
 
 .ftColor{
@@ -56,3 +56,13 @@
 .wHPesquisa{
     width: 60px;
 }
+
+.jCor{
+    background-color: #e5e5e5
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
